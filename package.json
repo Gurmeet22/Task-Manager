@@ -1,0 +1,25 @@
+{
+  "name": "Task-Manager",
+  "version": "1.0.0",
+  "description": "An application to provide task management functionality to user.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gurmeet22/Task-Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gurmeet22/Task-Manager/issues"
+  },
+  "homepage": "https://github.com/Gurmeet22/Task-Manager#readme",
+  "dependencies": {
+    "mongodb": "^3.2.6",
+    "mongoose": "^5.5.11",
+    "validator": "^11.0.0"
+  }
+}
