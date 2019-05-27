@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 const validator = require('validator')
+const bcrypt = require('bcryptjs')
 
-const Tasks = mongoose.model('Tasks', {
+const schema = new mongoose.Schema({
     description: {
         type: String,
         trim: true,
@@ -12,5 +13,8 @@ const Tasks = mongoose.model('Tasks', {
         type: Boolean
     }
 })
+
+
+const Tasks = mongoose.model('Tasks', schema)
 
 module.exports = Tasks
