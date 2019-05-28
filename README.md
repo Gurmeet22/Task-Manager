@@ -1,2 +1,2 @@
 # Task-Manager
-An application to provide task management functionality to user.
+An API to provide task management functionality to user.
